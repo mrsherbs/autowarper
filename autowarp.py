@@ -33,8 +33,6 @@ while True:
     if not star_Pos:
         break
 
-    time.sleep(1)
-
     while True:
         correct_selected_location = pyautogui.position(star_Pos.x + 150, star_Pos.y)
 
